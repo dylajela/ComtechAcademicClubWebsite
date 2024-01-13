@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="comtech_logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
+    <title>HUBUNGI KAMI</title>
+</head>
+<body>
+
+    <div class="header">
+        <img src="comtech_logo.png" alt="Your Logo">
+        <h3>COMTECH</h3>
+        <div class="social-media-right">
+            <!-- Add your social media icons or links here -->
+            <a href="https://www.instagram.com/official_comtechumt/" target="_blank"><img src="instagram_logo.png" alt="IG"></a>
+            <a href="https://www.facebook.com/comtech.umt" target="_blank"><img src="facebook_logo.png" alt="FB"></a>
+            <a href="https://www.youtube.com/channel/UCnJX60blp1ky1xD2QFahzrA" target="_blank"><img src="youtube_logo.png" alt="YT"></a>
+        </div>
+    </div>
+
+   	<!-- NAVIGATION -->
+  <div class="navigation">
+    <ul>
+		<li><a href="mainPage.html">UTAMA</a></li>
+		<li class="dropdownn">
+			<a href="#" class="dropbtn">TENTANG KAMI</a>
+			<div class="dropdown-content">
+				<a href="history.html">KURSUS</a>
+				<a href="faqs.html">FAQs</a>
+			</div>
+		</li>
+		<li class="dropdownn">
+			<a href="#" class="dropbtn">GALERI</a>
+			<div class="dropdown-content">
+				<a href="sem1.html">Semester 1 (22/23)</a>
+				<a href="sem2.html">Semester 2 (22/23)</a>
+			</div>
+		</li>
+      <li><a href="Organization.html">ORGANISASI</a></li>
+	  <li><a href="Achievement.html">PENCAPAIAN</a></li>
+	  <li><a href="ContactUs.html">HUBUNGI KAMI</a></li>
+    </ul>
+  </div>
+<div class="HUBUNGI KAMI">
+    <h1>HUBUNGI KAMI</h1>
+<hr>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: garamond, serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    height: 4rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+nav {
+    width: 30rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #0dac30;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reachUs-button {
+    padding: 1rem;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reachUs-button:hover {
+    background-color: #1ac840;
+}
+
+/* banner section styles */
+.banner {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact form styles */
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+}
+
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-container input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Contact info styles */
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+/* Info Fakulti section styles */
+.Info.Fakulti {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f7f7f7;
+}
+
+.Info.Fakulti h2 {
+    margin-bottom: 20px;
+}
+
+.Info.Fakulti Alamat {
+    text-align: center;
+}
+
+/* Adjust the line spacing for better readability */
+.Info.Fakulti Alamat br {
+    display: block;
+    margin: 10px 0;
+}
+
+.Info.Fakulti Alamat a {
+    color: #0dac30;
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+/* Hamburger styles */
+.hamburger {
+    display: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    #nav-menu {
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        display: none;
+    }
+
+    #nav-menu.active {
+        display: block;
+        flex-direction: row;
+        padding: 1rem;
+    }
+}
+
+
+</style>
+
+
+
+<body>
+    <!-- banner section  -->
+    <section class="banner">
+        <img src="HubungiKami.png"
+            alt="Selamat Datang Ke Halaman Hubungi Kami">
+        <h1>Mari Berhubung bersama Kami!</h1>
+        <p>
+         Kami di sini untuk menjawab semua soalan anda!.
+          </p>
+    </section>
+ 
+    <!-- Contact form -->
+    <section class="contact-form">
+        <div class="form-container">
+            <h2>Maklumat Anda</h2>
+            <form action="#" method="POST">
+ 
+                <label for="nama">Nama: </label>
+                <input type="text" id="nama" nama="nama" required>
+ 
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="No.Telefon">No.Telefon: </label>
+                <input type="tel" id="No.Telefon" name="No.Telefon">
+ 
+                <label for="mesej">Mesej: </label>
+                <textarea id="mesej" name="mesej" rows="4" required></textarea>
+ 
+                <button type="Hantar" class="Hantar-button">Hantar</button>
+            </form>
+        </div>
+    </section>
+ 
+    <!-- Info Fakulti -->
+    <section class="Info Fakulti">
+        <h2>Maklumat Untuk Berhubung</h2>
+        <Alamat>
+           Fakulti Sains Komputer dan Matematik(FSKM)<br>
+           Universiti Malaysia Terengganu, <br>
+           21030 Kuala Nerus, Terengganu, Malaysia <br>
+           Phone: <a href="tel:+609-6683555">09-6683555</a><br>
+           Email: <a href="mailto:kelab.comtech@umt.edu.my">kelab.comtech@umt.edu.my.</a>
+        </Alamat>
+    </section>
+ 
+    <div class="footer">
+    <p> COMTECH @2024 </p>
+  </div>
+</body>
+
+</html>
